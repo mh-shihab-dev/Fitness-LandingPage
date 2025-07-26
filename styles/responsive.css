@@ -6,6 +6,9 @@
   .btn.light {
     padding: 10px 18px;
   }
+  .section-title{
+    font-size: 1.88rem;
+  }
   nav ul {
     display: none;
   }
@@ -37,6 +40,10 @@
   .hero .right .achivement-card.tutorial img {
     width: 25px;
   }
+  /* Habits section styles */
+  .habits-cards{
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width:992px) {
@@ -65,11 +72,19 @@
     bottom: 128px;
     left: -41px;
   }
+  /* Habits section styles */
+  .habits-cards{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
 
 @media screen and (min-width:993px) and (max-width:1236px) {
   .hero .left p{
     max-width: 350px;
+  }
+  /* Habits section styles */
+  .habits-cards .card img{
+    width: 150px;
   }
 }
