@@ -44,6 +44,14 @@
   .habits-cards{
     grid-template-columns: repeat(1,1fr);
   }
+  /* run section styles */
+  .run{
+    flex-direction: column;
+    gap: 26px;
+  }
+  .run .right img{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width:992px) {
@@ -58,12 +66,18 @@
   }
   .hero {
     flex-direction: column;
+    align-items: start;
     gap: 40px;
     padding-top: 20px;
   }
   .hero .left h2 {
     font-size: 4rem;
   }
+
+  .hero .right{
+    margin: 0 auto;
+  }
+
   .hero .right .achivement-card.workout {
     top: 40px;
     right: -40px;
@@ -76,6 +90,14 @@
   .habits-cards{
     grid-template-columns: repeat(2,1fr);
   }
+  /* run section styles */
+  .run{
+    flex-direction: column;
+    gap: 26px;
+  }
+  .run .right img{
+    width: 100%;
+  }
 }
 
 
@@ -86,5 +108,9 @@
   /* Habits section styles */
   .habits-cards .card img{
     width: 150px;
+  }
+  /* run styles */
+  .run .left h2{
+    font-size: 1.5rem;
   }
 }
