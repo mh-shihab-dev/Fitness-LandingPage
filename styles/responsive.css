@@ -93,7 +93,11 @@
   /* run section styles */
   .run{
     flex-direction: column;
+    align-items: start;
     gap: 26px;
+  }
+  .run .left h2{
+    font-size: 1.5rem;
   }
   .run .right img{
     width: 100%;
